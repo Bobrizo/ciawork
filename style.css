@@ -1,0 +1,277 @@
+h1 {
+    text-align: center;
+}
+h1.can {
+    text-align: center;
+    color: aqua;
+}
+h1.chi {
+    text-align: center;
+    color: red;
+}
+h1.rus {
+    text-align: center;
+    color: purple;
+}
+h4 {
+    text-align: center;
+}
+p.rus {
+    color: purple;
+}
+h2 {
+    text-align: center;
+    color: aqua;
+}
+p {
+    text-align: center;
+    color: aqua;
+}
+p.chi {
+    text-align: center;
+    color: red;
+}
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.429);
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    text-align: center;
+    background-color: gray;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    top: 37px;
+    background-color: grey;
+    border: 1px solid aqua;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: grey;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    background-color:lightseagreen;
+    padding-right: 15px;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+img.image {
+    width: 750px;
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+}
+img.image2 {
+    width: 563px;
+    text-align: center;
+    align-items: center;
+    margin-left:25px;
+}
+div {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+div ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div li {
+    float:left;
+}
+img.logo {
+    width: 100px;
+}
+img.imgf{
+    width: 650px;
+    margin-left: 650px;
+    height: 350px;
+}
+img.put{
+    width: 600px;
+    margin-left: 650px;
+    height: 330px;
+}
+img.chi1 {
+    height: 350px;
+    width: 650px;
+    margin-left: 650px;
+}
+img.chi2 {
+    width: 600px;
+    height: 350px;
+    margin-left: 650px;
+}
+.container{
+    background-size: auto;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0), blue) ; 
+    object-fit: cover; 
+    position: absolute; 
+}
+img.can{
+    width: 650px;
+    margin-left: 650px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrapper {
+	height: 350px;
+	margin: 100px auto 0;
+	position: relative;
+	width: 700px;
+}
+
+.slider {
+	background-color: #ddd;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.wrapper > input {
+	display: none;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1 { background-image: url(https://www.cosavfx.com/wp-content/uploads/2020/08/coulsonteasebetter-thegem-blog-timeline-large.jpg); }
+.slide2 { background-image: url(https://reactormag.com/wp-content/uploads/2024/05/jw4-2025x3000-online-character-1sht-donnie-v1-740x493.jpg); }
+.slide3 { background-image: url(https://thumbs.dreamstime.com/b/young-man-looking-futuristic-smart-high-tech-glasses-concept-50452890.jpg); }
+.slide4 { background-image: url(http://habrastorage.org/files/e59/424/c04/e59424c046be4dab897d84ab015c87ea.jpg); }
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4) {
+	background: #ddd;
+}
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+p.hid{
+    color: rgba(0, 0, 0, .100);
+}
